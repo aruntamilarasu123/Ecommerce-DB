@@ -7,8 +7,7 @@ This project contains a simple relational database structure for managing an **e
 ## 🗂️ Database Overview
 
 ### Database Name:
-## sql
-## ecommerce
+- ecommerce
 
 ## Tables:
 
@@ -79,8 +78,3 @@ Field | Type | Description
 - 5 products
 
 - 5 orders
-
-## ✍️ Author
-- Created by: ARUN T
-- Date: 23 April 2025
-
