@@ -7,8 +7,8 @@ This project contains a simple relational database structure for managing an **e
 ## 🗂️ Database Overview
 
 ### Database Name:
-**sql**
-**ecommerce**
+## sql
+## ecommerce
 
 ## Tables:
 
@@ -22,14 +22,14 @@ This project contains a simple relational database structure for managing an **e
 
 ## Schema Structure
 
-**customers**
+## customers
 Field | Type | Description
 - customer_id | INT (PK) | Auto-incremented unique ID
 - customer_name | VARCHAR(100) | Name of the customer
 - customer_email | VARCHAR(100) | Unique email
 - customer_address | VARCHAR(500) | Address of the customer
 
-**products**
+## products
 Field | Type | Description
 - product_id | INT (PK) | Auto-incremented unique ID
 - product_name | VARCHAR(200) | Name of the product
@@ -37,14 +37,14 @@ Field | Type | Description
 - product_description | VARCHAR(1000) | Product details
 - discount | DECIMAL(5,2) | Discount applied (default: 0.00)
 
-**orders**
+## orders
 Field | Type | Description
 - order_id | INT (PK) | Auto-incremented unique ID
 - customer_id | INT (FK) | Linked to customers.customer_id
 - order_date | DATE | Date the order was placed
 - total_amount | DECIMAL(10,2) | Total cost of the order
 
-**order_items**
+## order_items
 Field | Type | Description
 - order_item_id | INT (PK) | Auto-incremented unique ID
 - order_id | INT (FK) | Linked to orders.order_id
